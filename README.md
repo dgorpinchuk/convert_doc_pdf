@@ -5,8 +5,11 @@ To support both DOC and DOCX files on Windows, where the script can leverage Mic
 2. Usage: Ensure that Microsoft Word is installed and configured correctly on your machine. The automation of Word is required for this conversion to work (Word must be accessible).
 
 3. Dependencies:
-   - comtypes provides the capability to automate Windows applications like Microsoft Word.
-   - wxPython is used to present the file dialog.
+   - `comtypes` provides the capability to automate Windows applications like Microsoft Word.
+   - `wxPython` is used to present the file dialog.
   
  Installation:
-   `pip install wxPython comtypes`
+ ```shell
+ pip install wxPython comtypes
+ ```
+
